@@ -10,7 +10,7 @@ namespace DataBaseContext
     {
         public DataBase() 
         {
-            string Conexao = @"";
+            string Conexao = @".\SQLEXPRESS; Initial Catalog = AutomovelFrabric; Persist Security Info = True; User ID = sa; Password = sql2022";
         }
     }
 }

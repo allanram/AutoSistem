@@ -29,25 +29,25 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
+            btnVenderBlocoA = new Button();
             cbxBlocoA = new ComboBox();
             label8 = new Label();
             panel2 = new Panel();
+            btnVenderBlocoB = new Button();
             label7 = new Label();
             cbxBlocoB = new ComboBox();
             label5 = new Label();
             panel3 = new Panel();
+            btnVenderBlocoD = new Button();
             cbxBlocoD = new ComboBox();
             panel4 = new Panel();
+            btnVenderBlocoC = new Button();
             cbxBlocoC = new ComboBox();
             label6 = new Label();
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
             label4 = new Label();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             panel3.SuspendLayout();
@@ -58,13 +58,23 @@
             // 
             panel1.BackColor = SystemColors.ActiveCaption;
             panel1.BorderStyle = BorderStyle.FixedSingle;
-            panel1.Controls.Add(button3);
+            panel1.Controls.Add(btnVenderBlocoA);
             panel1.Controls.Add(cbxBlocoA);
             panel1.Controls.Add(label8);
             panel1.Location = new Point(28, 74);
             panel1.Name = "panel1";
             panel1.Size = new Size(311, 244);
             panel1.TabIndex = 0;
+            // 
+            // btnVenderBlocoA
+            // 
+            btnVenderBlocoA.Location = new Point(202, 197);
+            btnVenderBlocoA.Name = "btnVenderBlocoA";
+            btnVenderBlocoA.Size = new Size(89, 23);
+            btnVenderBlocoA.TabIndex = 10;
+            btnVenderBlocoA.Text = "Vender";
+            btnVenderBlocoA.UseVisualStyleBackColor = true;
+            btnVenderBlocoA.Click += btnVenderBlocoA_Click;
             // 
             // cbxBlocoA
             // 
@@ -88,13 +98,23 @@
             // 
             panel2.BackColor = Color.FromArgb(255, 192, 128);
             panel2.BorderStyle = BorderStyle.FixedSingle;
-            panel2.Controls.Add(button1);
+            panel2.Controls.Add(btnVenderBlocoB);
             panel2.Controls.Add(label7);
             panel2.Controls.Add(cbxBlocoB);
             panel2.Location = new Point(365, 74);
             panel2.Name = "panel2";
             panel2.Size = new Size(364, 244);
             panel2.TabIndex = 1;
+            // 
+            // btnVenderBlocoB
+            // 
+            btnVenderBlocoB.Location = new Point(221, 185);
+            btnVenderBlocoB.Name = "btnVenderBlocoB";
+            btnVenderBlocoB.Size = new Size(89, 23);
+            btnVenderBlocoB.TabIndex = 9;
+            btnVenderBlocoB.Text = "Vender";
+            btnVenderBlocoB.UseVisualStyleBackColor = true;
+            btnVenderBlocoB.Click += btnVenderBlocoB_Click;
             // 
             // label7
             // 
@@ -127,13 +147,23 @@
             // 
             panel3.BackColor = Color.Silver;
             panel3.BorderStyle = BorderStyle.FixedSingle;
-            panel3.Controls.Add(button4);
+            panel3.Controls.Add(btnVenderBlocoD);
             panel3.Controls.Add(cbxBlocoD);
             panel3.Controls.Add(label5);
             panel3.Location = new Point(28, 349);
             panel3.Name = "panel3";
             panel3.Size = new Size(311, 249);
             panel3.TabIndex = 1;
+            // 
+            // btnVenderBlocoD
+            // 
+            btnVenderBlocoD.Location = new Point(202, 197);
+            btnVenderBlocoD.Name = "btnVenderBlocoD";
+            btnVenderBlocoD.Size = new Size(89, 23);
+            btnVenderBlocoD.TabIndex = 10;
+            btnVenderBlocoD.Text = "Vender";
+            btnVenderBlocoD.UseVisualStyleBackColor = true;
+            btnVenderBlocoD.Click += btnVenderBlocoD_Click;
             // 
             // cbxBlocoD
             // 
@@ -148,13 +178,23 @@
             // 
             panel4.BackColor = Color.FromArgb(255, 192, 192);
             panel4.BorderStyle = BorderStyle.FixedSingle;
-            panel4.Controls.Add(button2);
+            panel4.Controls.Add(btnVenderBlocoC);
             panel4.Controls.Add(cbxBlocoC);
             panel4.Controls.Add(label6);
             panel4.Location = new Point(365, 349);
             panel4.Name = "panel4";
             panel4.Size = new Size(374, 249);
             panel4.TabIndex = 1;
+            // 
+            // btnVenderBlocoC
+            // 
+            btnVenderBlocoC.Location = new Point(221, 188);
+            btnVenderBlocoC.Name = "btnVenderBlocoC";
+            btnVenderBlocoC.Size = new Size(89, 23);
+            btnVenderBlocoC.TabIndex = 10;
+            btnVenderBlocoC.Text = "Vender";
+            btnVenderBlocoC.UseVisualStyleBackColor = true;
+            btnVenderBlocoC.Click += btnVenderBlocoC_Click;
             // 
             // cbxBlocoC
             // 
@@ -210,47 +250,11 @@
             label4.TabIndex = 5;
             label4.Text = "BLOCO D";
             // 
-            // button1
-            // 
-            button1.Location = new Point(221, 185);
-            button1.Name = "button1";
-            button1.Size = new Size(89, 23);
-            button1.TabIndex = 9;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            button2.Location = new Point(221, 188);
-            button2.Name = "button2";
-            button2.Size = new Size(89, 23);
-            button2.TabIndex = 10;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            button3.Location = new Point(202, 197);
-            button3.Name = "button3";
-            button3.Size = new Size(89, 23);
-            button3.TabIndex = 10;
-            button3.Text = "button3";
-            button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            button4.Location = new Point(202, 197);
-            button4.Name = "button4";
-            button4.Size = new Size(89, 23);
-            button4.TabIndex = 10;
-            button4.Text = "button4";
-            button4.UseVisualStyleBackColor = true;
-            // 
             // VisualisadorPecas
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1202, 695);
+            ClientSize = new Size(860, 644);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
@@ -291,9 +295,9 @@
         private ComboBox cbxBlocoD;
         private ComboBox cbxBlocoC;
         private Label label6;
-        private Button button3;
-        private Button button1;
-        private Button button4;
-        private Button button2;
+        private Button btnVenderBlocoA;
+        private Button btnVenderBlocoB;
+        private Button btnVenderBlocoD;
+        private Button btnVenderBlocoC;
     }
 }

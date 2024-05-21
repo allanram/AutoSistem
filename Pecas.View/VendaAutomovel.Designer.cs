@@ -29,65 +29,38 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
-            label1 = new Label();
-            textBox4 = new TextBox();
-            textBox3 = new TextBox();
-            textBox2 = new TextBox();
-            textBox1 = new TextBox();
             label2 = new Label();
+            label1 = new Label();
+            txtQuantidadeDisponivel = new TextBox();
+            txtQuantidadeVendida = new TextBox();
+            txtNomeBloco = new TextBox();
+            txtNomeAutomovel = new TextBox();
+            label3 = new Label();
+            label4 = new Label();
+            btnRealizarVenda = new Button();
+            textBox1 = new TextBox();
+            label5 = new Label();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
             // 
             panel1.BackColor = SystemColors.ActiveBorder;
+            panel1.Controls.Add(label5);
+            panel1.Controls.Add(textBox1);
+            panel1.Controls.Add(btnRealizarVenda);
+            panel1.Controls.Add(label4);
+            panel1.Controls.Add(label3);
             panel1.Controls.Add(label2);
             panel1.Controls.Add(label1);
-            panel1.Controls.Add(textBox4);
-            panel1.Controls.Add(textBox3);
-            panel1.Controls.Add(textBox2);
-            panel1.Controls.Add(textBox1);
-            panel1.Location = new Point(12, 42);
+            panel1.Controls.Add(txtQuantidadeDisponivel);
+            panel1.Controls.Add(txtQuantidadeVendida);
+            panel1.Controls.Add(txtNomeBloco);
+            panel1.Controls.Add(txtNomeAutomovel);
+            panel1.Location = new Point(1, 21);
             panel1.Name = "panel1";
-            panel1.Size = new Size(616, 296);
+            panel1.Size = new Size(584, 265);
             panel1.TabIndex = 0;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(26, 41);
-            label1.Name = "label1";
-            label1.Size = new Size(66, 15);
-            label1.TabIndex = 4;
-            label1.Text = "Automóvel";
-            // 
-            // textBox4
-            // 
-            textBox4.Location = new Point(165, 59);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(127, 23);
-            textBox4.TabIndex = 3;
-            // 
-            // textBox3
-            // 
-            textBox3.Location = new Point(298, 68);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(100, 23);
-            textBox3.TabIndex = 2;
-            // 
-            // textBox2
-            // 
-            textBox2.Location = new Point(26, 102);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(116, 23);
-            textBox2.TabIndex = 1;
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(26, 59);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(116, 23);
-            textBox1.TabIndex = 0;
             // 
             // label2
             // 
@@ -98,11 +71,94 @@
             label2.TabIndex = 5;
             label2.Text = "Quantidade Disponivel";
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(26, 41);
+            label1.Name = "label1";
+            label1.Size = new Size(66, 15);
+            label1.TabIndex = 4;
+            label1.Text = "Automóvel";
+            // 
+            // txtQuantidadeDisponivel
+            // 
+            txtQuantidadeDisponivel.Location = new Point(165, 59);
+            txtQuantidadeDisponivel.Name = "txtQuantidadeDisponivel";
+            txtQuantidadeDisponivel.Size = new Size(127, 23);
+            txtQuantidadeDisponivel.TabIndex = 3;
+            // 
+            // txtQuantidadeVendida
+            // 
+            txtQuantidadeVendida.Location = new Point(311, 59);
+            txtQuantidadeVendida.Name = "txtQuantidadeVendida";
+            txtQuantidadeVendida.Size = new Size(123, 23);
+            txtQuantidadeVendida.TabIndex = 2;
+            // 
+            // txtNomeBloco
+            // 
+            txtNomeBloco.Location = new Point(26, 102);
+            txtNomeBloco.Name = "txtNomeBloco";
+            txtNomeBloco.Size = new Size(116, 23);
+            txtNomeBloco.TabIndex = 1;
+            // 
+            // txtNomeAutomovel
+            // 
+            txtNomeAutomovel.Location = new Point(26, 59);
+            txtNomeAutomovel.Name = "txtNomeAutomovel";
+            txtNomeAutomovel.Size = new Size(116, 23);
+            txtNomeAutomovel.TabIndex = 0;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(320, 41);
+            label3.Name = "label3";
+            label3.Size = new Size(114, 15);
+            label3.TabIndex = 6;
+            label3.Text = "Quantidade Vendida";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(26, 85);
+            label4.Name = "label4";
+            label4.Size = new Size(49, 15);
+            label4.TabIndex = 7;
+            label4.Text = "BLOCO:";
+            // 
+            // btnRealizarVenda
+            // 
+            btnRealizarVenda.BackColor = Color.FromArgb(128, 255, 128);
+            btnRealizarVenda.BackgroundImageLayout = ImageLayout.Center;
+            btnRealizarVenda.ForeColor = Color.Black;
+            btnRealizarVenda.Location = new Point(329, 125);
+            btnRealizarVenda.Name = "btnRealizarVenda";
+            btnRealizarVenda.Size = new Size(75, 23);
+            btnRealizarVenda.TabIndex = 8;
+            btnRealizarVenda.Text = "Vender";
+            btnRealizarVenda.UseVisualStyleBackColor = false;
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(165, 102);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(116, 23);
+            textBox1.TabIndex = 9;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(165, 85);
+            label5.Name = "label5";
+            label5.Size = new Size(49, 15);
+            label5.TabIndex = 10;
+            label5.Text = "Valor R$";
+            // 
             // VendaAutomovel
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(588, 298);
             Controls.Add(panel1);
             Name = "VendaAutomovel";
             Text = "VendaAutomovel";
@@ -115,10 +171,15 @@
 
         private Panel panel1;
         private Label label1;
-        private TextBox textBox4;
-        private TextBox textBox3;
-        private TextBox textBox2;
-        private TextBox textBox1;
+        private TextBox txtQuantidadeDisponivel;
+        private TextBox txtQuantidadeVendida;
+        private TextBox txtNomeBloco;
+        private TextBox txtNomeAutomovel;
         private Label label2;
+        private Label label4;
+        private Label label3;
+        private Label label5;
+        private TextBox textBox1;
+        private Button btnRealizarVenda;
     }
 }

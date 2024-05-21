@@ -13,9 +13,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{34BD596D-3
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pecas.View", "Pecas.View\Pecas.View.csproj", "{A7C2CEA9-3A26-4C02-82FD-6BD5E80430F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Auto", "Automovel\Core.Auto.csproj", "{D84815C5-CEB7-402C-8207-AC37F0B0B21F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Auto", "Automovel\Core.Auto.csproj", "{D84815C5-CEB7-402C-8207-AC37F0B0B21F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBaseContext", "DataBaseContext\DataBaseContext.csproj", "{AC87DA92-07A7-47EA-8576-C834FD4BE344}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataBaseContext", "DataBaseContext\DataBaseContext.csproj", "{AC87DA92-07A7-47EA-8576-C834FD4BE344}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
